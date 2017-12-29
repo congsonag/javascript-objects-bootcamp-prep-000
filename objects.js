@@ -18,3 +18,7 @@ console.log(meals)
 destructivelyUpdateObjectWithKeyAndValue(meals, 'new key', 'new value')
 
 console.log(meals)
+
+console.log(Object.assign({}, {foo: 'bar' }))
+
+
