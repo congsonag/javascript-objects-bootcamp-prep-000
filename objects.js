@@ -10,7 +10,7 @@ console.log(anotherMeal[1])
 
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  obj[key] = value
+  object[key] = value
   return object
 }
 
