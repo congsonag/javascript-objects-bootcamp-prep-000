@@ -31,3 +31,8 @@ const recipe = { eggs: 3 }
 newObject = updateObjectWithKeyAndValue(recipe, 'tomatoes', 9)
 
 console.log(recipe, newObject)
+
+
+function updateObjectWithObject(targetObject, updatesObject) {
+  return Objecy.assign( {}, targetObject, updatesObject)
+}
