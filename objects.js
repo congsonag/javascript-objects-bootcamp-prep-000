@@ -7,7 +7,7 @@ var meals = { breakfast: 'oatmeal'};
 var anotherMeal = new Object( { breakfast: 'oatmeat', 1: 'is the lonliest number'})
 
 console.log(anotherMeal[1])
-console.log(anotherMeal.'1')
+
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   obj[key] = value
