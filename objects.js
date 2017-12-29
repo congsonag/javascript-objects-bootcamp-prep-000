@@ -4,6 +4,6 @@ function updatePlaylist(playlist, artist, songTitle) {
   return Object.assign( {}, playlist, { artist: songTitle })
 }
 
-updatePlaylist(playlist, nhuwuynh, 'thao thuc minh oi')
+updatePlaylist(playlist, 'nhuwuynh', 'thao thuc minh oi')
 
 console.log(playlist)
